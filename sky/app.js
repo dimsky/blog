@@ -1,5 +1,5 @@
 var spawn = require('child_process').spawn;
-free = spawn('hexo', ['server', '-p 80']);
+free = spawn('hexo', ['server', '-p 8081']);
 
 free.stdout.on('data', function (data) {
 console.log('standard output:\n' + data);
